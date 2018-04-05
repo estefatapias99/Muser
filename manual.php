@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="views/assets/image/logo.png">
     <link rel="stylesheet" href="manual.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
 
   </head>
   <body>
@@ -50,6 +48,7 @@
             </div>
         </div>
 
+<<<<<<< HEAD
 <!-- <div class="super-container-two">
 </div> -->
     <div class="Modern-Slider">
@@ -108,6 +107,22 @@
     </div>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src='https://kenwheeler.github.io/slick/slick/slick.js'></script>
+=======
+<div class="super-container-two">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> e95059c5b63ba375b467a2724ac6385f421f9e43
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
   </body>
