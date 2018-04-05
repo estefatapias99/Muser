@@ -11,7 +11,6 @@
     <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
 
   </head>
-
   <body>
     <div class="super-container-one">
     <div class="container--right">
@@ -107,18 +106,6 @@
     </div>
     <!-- // Item -->
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src='https://kenwheeler.github.io/slick/slick/slick.js'></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
