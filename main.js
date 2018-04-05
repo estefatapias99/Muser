@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function(){ 
 
   $(".Modern-Slider").slick({
     prevArrow:'<button class="PrevArrow"></button>',
