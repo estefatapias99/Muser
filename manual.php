@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Manual de Usuario</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="shortcut icon" href="views/assets/image/logo.png">
     <link rel="stylesheet" href="manual.css">
 
@@ -12,12 +12,12 @@
   <body>
     <div class="super-container-one">
     <div class="container--right">
-      <h1 class="ped"><p><a href="#">Pedidos</a></h1>
-      <h1 class="cot"><p><a href="#">Cotizaciones</a><h1>
-      <h1 class="pro"><p><a href="#">Productos</a><h1>
-      <h1 class="cont"><p><a href="#">Contacto</a><h1>
-      <h1 class="perf"><p><a href="#">Perfil</a><h1>
-      <h1 class="chat"><p><a href="#">Chat</a><h1>
+      <h1><p><a href="#">Productos</a><h1>
+        <h1><p><a href="#">Cotizaciones</a><h1>
+      <h1><p><a href="#">Pedidos</a></h1>
+      <h1><p><a href="#">Contacto</a><h1>
+      <h1><p><a href="#">Perfil</a><h1>
+      <h1><p><a href="#">Chat</a><h1>
     </div>
     <div class="container--center">
       <h1 class="title">Manual de Usuario</h1>
@@ -48,81 +48,128 @@
             </div>
         </div>
 
-<<<<<<< HEAD
-<!-- <div class="super-container-two">
-</div> -->
-    <div class="Modern-Slider">
-    <!-- Item -->
-    <div class="item">
-    <div class="img-fill">
-    <img src="https://i.imgur.com/JNKiMHU.jps" alt="">
-    <div class="info">
-      <div>
-        <h3>Full Width Slider With Layers</h3>
-        <h5>You can easily add image, html formatted texts and video layers over each slide and each layer accepts unique animation.</h5>
+<div class="three"><p></p></div>
+
+<div id="slider" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    <li data-target="#slider" data-slide-to="1" ></li>
+    <li data-target="#slider" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner" >
+    <div class="carousel-item active">
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Siberian-husky.jpg" alt="Los Angeles" width="1100"> -->
+      <div class="slider-1">
+        <h3 class="title-ped">Productos</h3>
+        <!-- <p>Cómo realizar pedidos</p> -->
       </div>
     </div>
-    </div>
-    </div>
-    <!-- // Item -->
-    <!-- Item -->
-    <div class="item">
-    <div class="img-fill">
-    <img src="https://i.imgur.com/ESMjChq.jpg" alt="">
-    <div class="info">
-      <div>
-        <h3>Fully responsive Scales with its container</h3>
-        <h5>Donec id ornare dui. Aenean tristique condimentum elit, quis blandit nisl varius sit amet. Sed eleifend felis quis massa viverra</h5>
+    <div class="carousel-item">
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Siberian-husky.jpg" alt="Chicago" width="1100"> -->
+      <div class="slider-2">
+        <h3 class="title-ped">Paso 1</h3>
+        <!-- <p>Lorem ipsum lorem ipsum lorem ipsum</p> -->
       </div>
     </div>
-    </div>
-    </div>
-    <!-- // Item -->
-    <!-- Item -->
-    <div class="item">
-    <div class="img-fill">
-    <img src="https://i.imgur.com/TDxSvHH.jpg" alt="">
-    <div class="info">
-      <div>
-        <h3>Awesome Transtions With CSS3</h3>
-        <h5>Donec id ornare dui. Aenean tristique condimentum elit, quis blandit nisl varius sit amet. Sed eleifend felis quis massa viverra</h5>
+    <div class="carousel-item">
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Siberian-husky.jpg" alt="New York" width="1100"> -->
+      <div class="slider-3">
+        <h3 class="title-ped">Paso 2</h3>
+        <!-- <p>Lorem ipsum lorem ipsum lorem ipsum</p> -->
       </div>
     </div>
-    </div>
-    </div>
-    <!-- // Item -->
-    <!-- Item -->
-    <div class="item">
-    <div class="img-fill">
-    <img src="https://i.imgur.com/p1XZ3Mu.jpg" alt="">
-    <div class="info">
-      <div>
-        <h3>Separate settings per breakpoint</h3>
-        <h5>Donec id ornare dui. Aenean tristique condimentum elit, quis blandit nisl varius sit amet. Sed eleifend felis quis massa viverra</h5>
+  </div>
+  <a class="carousel-control-prev" href="#slider" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#slider" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<div class="three"><p></p></div>
+
+<div id="slider1" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#slider1" data-slide-to="0" class="active"></li>
+    <li data-target="#slider1" data-slide-to="1" ></li>
+    <li data-target="#slider1" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner" >
+    <div class="carousel-item active">
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Siberian-husky.jpg" alt="Los Angeles" width="1100"> -->
+      <div class="slider-1">
+        <h3 class="title-ped">Cotizaciones</h3>
+        <!-- <p>Cómo realizar pedidos</p> -->
       </div>
     </div>
+    <div class="carousel-item">
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Siberian-husky.jpg" alt="Chicago" width="1100"> -->
+      <div class="slider-2">
+        <h3 class="title-ped">Paso 1</h3>
+        <!-- <p>Lorem ipsum lorem ipsum lorem ipsum</p> -->
+      </div>
     </div>
+    <div class="carousel-item">
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Siberian-husky.jpg" alt="New York" width="1100"> -->
+      <div class="slider-3">
+        <h3 class="title-ped">Paso 2</h3>
+        <!-- <p>Lorem ipsum lorem ipsum lorem ipsum</p> -->
+      </div>
     </div>
-    <!-- // Item -->
+  </div>
+  <a class="carousel-control-prev" href="#slider1" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#slider1" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<div class="three"><p></p></div>
+
+
+<div id="slider2" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#slider2" data-slide-to="0" class="active"></li>
+    <li data-target="#slider2" data-slide-to="1" ></li>
+    <li data-target="#slider2" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner" >
+    <div class="carousel-item active">
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Siberian-husky.jpg" alt="Los Angeles" width="1100"> -->
+      <div class="slider-1">
+        <h3 class="title-ped">Pedidos</h3>
+        <!-- <p>Cómo realizar pedidos</p> -->
+      </div>
     </div>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='https://kenwheeler.github.io/slick/slick/slick.js'></script>
-=======
-<div class="super-container-two">
+    <div class="carousel-item">
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Siberian-husky.jpg" alt="Chicago" width="1100"> -->
+      <div class="slider-2">
+        <h3 class="title-ped">Paso 1</h3>
+        <!-- <p>Lorem ipsum lorem ipsum lorem ipsum</p> -->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Siberian-husky.jpg" alt="New York" width="1100"> -->
+      <div class="slider-3">
+        <h3 class="title-ped">Paso 2</h3>
+        <!-- <p>Lorem ipsum lorem ipsum lorem ipsum</p> -->
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#slider2" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#slider2" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
->>>>>>> e95059c5b63ba375b467a2724ac6385f421f9e43
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
   </body>
