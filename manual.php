@@ -57,7 +57,7 @@
     <li data-target="#slider" data-slide-to="1" ></li>
     <li data-target="#slider" data-slide-to="2"></li>
   </ul>
-  <div class="carousel-inner" >
+  <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <div class="slider-1">
         <img src="image/custom/productofondo.jpg" alt="">
@@ -74,7 +74,7 @@
     </div>
     <div class="carousel-item">
       <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Siberian-husky.jpg" alt="New York" width="1100"> -->
-      <div class="slider-3">
+      <div class="slider-2">
         <h3 class="title-ped">Paso 2</h3>
         <!-- <p>Lorem ipsum lorem ipsum lorem ipsum</p> -->
       </div>
@@ -94,14 +94,14 @@
 <!-- COTIZACIONES -->
 <div id="slider1" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
-    <li data-target="#slider1" data-slide-to="0" class="active"></li>
+    <li data-target="#slider1" data-slide-to="0" ></li>
     <li data-target="#slider1" data-slide-to="1" ></li>
     <li data-target="#slider1" data-slide-to="2"></li>
     <li data-target="#slider1" data-slide-to="3"></li>
     <li data-target="#slider1" data-slide-to="4"></li>
-    <li data-target="#slider1" data-slide-to="5"></li>
+    <li data-target="#slider1" data-slide-to="5"class="active"></li>
   </ul>
-  <div class="carousel-inner" >
+  <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <div class="slider-1">
         <img src="image/custom/cotizacionfondo.jpg" alt="">
@@ -122,7 +122,7 @@
     </div>
 
     <div class="carousel-item">
-      <div class="slider-3">
+      <div class="slider-2">
         <div class="cont--img">
           <img src="image/custom/guia10.png">
         </div>
@@ -196,15 +196,15 @@
 
 <!-- PEDIDOS-->
 <div id="slider2" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
+  <!-- <ul class="carousel-indicators">
     <li data-target="#slider2" data-slide-to="0" class="active"></li>
     <li data-target="#slider2" data-slide-to="1" ></li>
     <li data-target="#slider2" data-slide-to="2"></li>
     <li data-target="#slider2" data-slide-to="3"></li>
     <li data-target="#slider2" data-slide-to="4"></li>
     <li data-target="#slider2" data-slide-to="5"></li>
-  </ul>
-  <div class="carousel-inner" >
+  </ul> -->
+  <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <div class="slider-1">
         <img src="image/custom/pedidofondo.jpg" alt="">
@@ -224,7 +224,7 @@
     </div>
 
     <div class="carousel-item">
-      <div class="slider-3">
+      <div class="slider-2">
         <div class="cont--img">
           <img src="image/custom/guia3.png">
         </div>
@@ -301,7 +301,7 @@
     <li data-target="#slider3" data-slide-to="0" class="active"></li>
     <li data-target="#slider3" data-slide-to="1"></li>
   </ul>
-  <div class="carousel-inner" >
+  <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <div class="slider-1">
         <img src="image/custom/contactofondo.jpg">
@@ -341,9 +341,9 @@
     <li data-target="#slider4" data-slide-to="0" class="active"></li>
     <li data-target="#slider4" data-slide-to="1" ></li>
     <li data-target="#slider4" data-slide-to="2"></li>
-
+    <li data-target="#slider4" data-slide-to="3"></li>
   </ul>
-  <div class="carousel-inner" >
+  <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <div class="slider-1">
         <img src="image/custom/perfilfondo.jpg" alt="">
@@ -363,7 +363,7 @@
     </div>
 
     <div class="carousel-item">
-      <div class="slider-3">
+      <div class="slider-2">
         <div class="cont--img">
           <img src="image/custom/guia18.png">
         </div>
@@ -407,10 +407,9 @@
   <ul class="carousel-indicators">
     <li data-target="#slider5" data-slide-to="0" class="active"></li>
     <li data-target="#slider5" data-slide-to="1" ></li>
-
-
+    <li data-target="#slider5" data-slide-to="2" ></li>
   </ul>
-  <div class="carousel-inner" >
+  <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <div class="slider-1">
         <img src="image/custom/chatfondo.jpg" alt="">
@@ -430,7 +429,7 @@
     </div>
 
     <div class="carousel-item">
-      <div class="slider-3">
+      <div class="slider-2">
         <div class="cont--img">
           <img src="image/custom/guia21.png">
         </div>
