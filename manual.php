@@ -11,13 +11,26 @@
   </head>
   <body>
     <div class="super-container-one">
-    <div class="container--right">
-      <h1><p><a href="views/productos.php">Productos</a><h1>
-      <h1><p><a href="views/cotizaciones.php">Cotizaciones</a><h1>
-      <h1><p><a href="views/pedidos.php">Pedidos</a></h1>
-      <h1><p><a href="views/contacto.php">Contacto</a><h1>
-      <h1><p><a href="views/perfil.php">Perfil</a><h1>
-      <h1><p><a href="views/chat.php">Chat</a><h1>
+    <!-- <div class="container--right">
+      <a href="views/productos.php">Productos</a>
+      <a href="views/cotizaciones.php">Cotizaciones</a>
+      <a href="views/pedidos.php">Pedidos</a>
+      <a href="views/contacto.php">Contacto</a>
+      <a href="views/perfil.php">Perfil</a>
+      <a href="views/chat.php">Chat</a>
+    </div> -->
+    <div class="menu">
+      <div class="linermenu one"></div>
+      <div class="linermenu two"></div>
+      <div class="linermenu three"></div>
+    </div>
+    <div class="containerMenu">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
     </div>
     <div class="container--center">
       <h1 class="title">Manual de Usuario</h1>
@@ -26,7 +39,7 @@
     </div>
 </div>
 
-  <div class="row fold featured-fold featured-fold-es" >
+  <!-- <div class="row fold featured-fold featured-fold-es" >
             <h1 class="title-prin">Utilización de la página web</h1>
             <div class="featured-columns">
                 <div class="featured-border"></div>
@@ -46,7 +59,7 @@
                 </div>
                 <div class="featured-border"></div>
             </div>
-        </div>
+        </div> -->
 
 
 
