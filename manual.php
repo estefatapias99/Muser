@@ -19,12 +19,30 @@
       <span></span>
     </div>
     <div class="containerMenu">
-      <div class="item"><a href="views/pedidos.php">pedido</a></div>
-      <div class="item">cotizaciones</div>
-      <div class="item">productos</div>
-      <div class="item">perfil</div>
-      <div class="item">contacto</div>
-      <div class="item">chat</div>
+      <div class="item">
+        <img src="image/paper-plane.png">
+        <a href="views/pedidos.php">pedido</a>
+      </div>
+      <div class="item">
+        <img src="image/mail-box.png" alt="">
+        <a href="views/cotizaciones.php">cotizaciones</a>
+      </div>
+      <div class="item">
+        <img src="image/laptop.png" alt="">
+        <a href="#"> productos</a>
+      </div>
+      <div class="item">
+        <img src="image/users.png" alt="">
+        <a href="views/perfil.php">perfil</a>
+      </div>
+      <div class="item">
+        <img src="image/headphone.png" alt="">
+        <a href="views/contacto.php">contacto</a>
+      </div>
+      <div class="item">
+        <img src="image/chat.png" alt="">
+        <a href="views/chat.php">chat</a>
+      </div>
     </div>
     <div class="container--center">
       <h1 class="title">Manual de Usuario</h1>
