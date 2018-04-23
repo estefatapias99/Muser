@@ -8,48 +8,74 @@
 }
 /* SECCION 1 */
 .super-container-one{
-  background-image: url("image/ciudad.jpg");
-  background-repeat: no-repeat;
-  background-position:bottom;
-  background-size: cover;
+  background: #a0c6d0;
   display: flex;
   width: 100%;
   height: 100vh;
+  position: fixed;
 }
-/* .container--right{
+.menu {
+  width: 35px;
+  height: 20px;
+  position: relative;
+  margin: 30px 0 0 30px;
   display: flex;
-  position: absolute;
-  width: 100%;
-  justify-content: flex-end;
   align-items: center;
-}
-.container--right a {
-  text-decoration: none;
-  color: #485269;
-  font-family: 'roboto';
-  text-transform: uppercase;
-  padding: 10px 20px;
-} */
-.menu{
-  position: absolute;
-  padding: 20px;
   cursor: pointer;
 }
-.linermenu{
-  width: 40px;
-  height: 5px;
-  margin-bottom: 5px;
-  background: white;
+.menu span,
+.menu span:before,
+.menu span:after {width: 100%; height: 2px; display: block; background: #333;}
+.menu span:before,
+.menu span:after {content: ''; position: absolute; transition-duration: .2s;}
+.menu span:before {top: 0;}
+.menu span:after {bottom: 0;}
+.menu .active {background: none;}
+.menu .active::before {transform: rotate(45deg); top: 50%; margin-top: -1px;}
+.menu .active::after {transform: rotate(-45deg); top: 50%; margin-top: -1px;}
+.super-container-one img{position: absolute;}
+
+#nube1{
+  top: 350px;
+  opacity: .3;
+  animation: nube1 60s infinite;
 }
+@keyframes nube1 {
+  0%{transform: translateX(0);}
+  50%{transform: translateX(1366px);}
+  100%{transform: translateX(0);}
+}
+#nube2{
+  top: 150px;
+  right: 0;
+  width: 150px;
+  animation: nube2 30s infinite;
+}
+@keyframes nube2 {
+  from{transform: translateX(0);}
+  to{transform: translateX(-1366px);}
+}
+#nube3{
+  top: 30px;
+  opacity: .3;
+  animation: nube1 30s infinite;
+}
+#nube4{
+  bottom: 10px;
+  right: -99px;
+  width: 130px;
+  animation: nube2 50s infinite;
+}
+
 .container--center{
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 300px;
   text-align: center;
-  font-family: 'Oswald';
 }
 .container--center .title{
   color: white;
-  font-size: 100px;
+  font-family: 'Oswald';
+  font-size: 120px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -61,13 +87,11 @@
   text-transform: uppercase;
 }
 .container--center button{
-  padding: 10px 10px;
+  padding: 10px;
   border: 1px solid #485269;
   border-radius: 5px;
   background: transparent;
   color: #485269;
-  text-align: center;
-  font-weight: 300;
   outline: none;
   cursor: pointer;
   text-transform: uppercase;
@@ -77,7 +101,6 @@
   background: #6e768a;
   color: white;
 }
-
 .containerMenu{
   width: 100%;
   height: 200px;
@@ -85,5 +108,13 @@
   bottom: 0;
   background: white;
   transform: translateX(-9999px);
-  transition: all .8s ease;
+  transition: all .5s ease;
+  display: flex;
+  flex-wrap: wrap;
+}
+.activemenu{
+  transform: translateX(0px);
+}
+.item {
+  width: 33%;
 }

@@ -11,26 +11,20 @@
   </head>
   <body>
     <div class="super-container-one">
-    <!-- <div class="container--right">
-      <a href="views/productos.php">Productos</a>
-      <a href="views/cotizaciones.php">Cotizaciones</a>
-      <a href="views/pedidos.php">Pedidos</a>
-      <a href="views/contacto.php">Contacto</a>
-      <a href="views/perfil.php">Perfil</a>
-      <a href="views/chat.php">Chat</a>
-    </div> -->
+    <img id="nube1" src="image/nube1.png">
+    <img  id="nube2" src="image/nube1.png">
+    <img id="nube3" src="image/nube2.png">
+    <img id="nube4" src="image/nube2.png">
     <div class="menu">
-      <div class="linermenu one"></div>
-      <div class="linermenu two"></div>
-      <div class="linermenu three"></div>
+      <span></span>
     </div>
     <div class="containerMenu">
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
+      <div class="item"><a href="views/pedidos.php">pedido</a></div>
+      <div class="item">cotizaciones</div>
+      <div class="item">productos</div>
+      <div class="item">perfil</div>
+      <div class="item">contacto</div>
+      <div class="item">chat</div>
     </div>
     <div class="container--center">
       <h1 class="title">Manual de Usuario</h1>
