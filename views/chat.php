@@ -9,16 +9,15 @@
     <link rel="stylesheet" href="../views.css">
     <link rel="stylesheet" href="../manual.css">
 
-
   </head>
   <body>
 
 <!-- CHAT -->
 
-<div class="menu">
+<div class="menu views">
   <span></span>
 </div>
-<div class="containerMenu">
+<div class="containerMenu views">
   <div class="item">
     <img src="../image/paper-plane.png">
     <a href="views/pedidos.php">Pedido</a>

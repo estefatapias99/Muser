@@ -104,3 +104,8 @@ body{
   height: 448px;
   display: flex;
 }
+
+.menu.views, .containerMenu.views{
+  position: absolute;
+  z-index: 999;
+}
