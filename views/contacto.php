@@ -21,6 +21,10 @@
 </div>
 <div class="containerMenu views">
   <div class="item">
+    <img src="../image/home.png" alt="">
+    <a href="../manual.php">Inicio</a>
+  </div>
+  <div class="item">
     <img src="../image/paper-plane.png">
     <a href="pedidos.php">Pedido</a>
   </div>
@@ -35,10 +39,6 @@
   <div class="item">
     <img src="../image/users.png" alt="">
     <a href="perfil.php">Perfil</a>
-  </div>
-  <div class="item">
-    <img src="../image/headphone.png" alt="">
-    <a href="contacto.php">Contacto</a>
   </div>
   <div class="item">
     <img src="../image/chat.png" alt="">

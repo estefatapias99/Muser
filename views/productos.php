@@ -20,16 +20,16 @@
 </div>
 <div class="containerMenu views">
   <div class="item">
+    <img src="../image/home.png" alt="">
+    <a href="../manual.php">Inicio</a>
+  </div>
+  <div class="item">
     <img src="../image/paper-plane.png">
     <a href="pedidos.php">Pedido</a>
   </div>
   <div class="item">
     <img src="../image/mail-box.png" alt="">
     <a href="cotizaciones.php">Cotizaciones</a>
-  </div>
-  <div class="item">
-    <img src="../image/laptop.png" alt="">
-    <a href="productos.php">Productos</a>
   </div>
   <div class="item">
     <img src="../image/users.png" alt="">

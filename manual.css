@@ -24,6 +24,19 @@
   align-items: center;
   cursor: pointer;
 }
+
+
+.title.views{
+  color: white;
+  font-family: 'Oswald';
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 20%;
+}
+
+
+
 .menu span,
 .menu span:before,
 .menu span:after {width: 100%; height: 2px; display: block; background: #333;}
@@ -113,6 +126,19 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.containerMenu.admin{
+  width: 100%;
+  height: 200px;
+  position:absolute;
+  bottom: 0;
+  background: white;
+  transform: translateX(-9999px);
+  transition: all .5s ease;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .activemenu{
   transform: translateX(0px);
 }
@@ -125,6 +151,17 @@
   align-items: center;
   transition: all .5s ease;
 }
+
+.item.admin{
+  width: 14.2%;
+  border-right: 1px solid #9e9e9e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s ease;
+}
+
 .item img{
   width: 50px;
 }

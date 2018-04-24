@@ -21,8 +21,8 @@
 </div>
 <div class="containerMenu views">
   <div class="item">
-    <img src="../image/paper-plane.png">
-    <a href="pedidos.php">Pedido</a>
+    <img src="../image/home.png">
+    <a href="../manual.php">Inicio</a>
   </div>
   <div class="item">
     <img src="../image/mail-box.png" alt="">
@@ -47,7 +47,7 @@
 </div>
 
 
-<div id="slider2" class="carousel slide" data-ride="carousel">
+<div id="slider2" class="carousel slide" data-ride="carousel" data-target>
   <ul class="carousel-indicators">
     <li data-target="#slider2" data-slide-to="0" class="active"></li>
     <li data-target="#slider2" data-slide-to="1" ></li>
@@ -91,7 +91,7 @@
     <div class="carousel-item">
       <div class="slider-2">
         <div class="cont--img">
-          <img src="../image/custom/guia4.png">
+          <img src="../image/custom/guia5.png">
         </div>
         <div class="cont--title">
           <h3 class="title-ped1">Paso 3</h3>
