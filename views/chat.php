@@ -8,10 +8,12 @@
     <link rel="shortcut icon" href="views/assets/image/logo.png">
     <link rel="stylesheet" href="../views.css">
 
+
   </head>
   <body>
 
 <!-- CHAT -->
+
 
 <div id="slider5" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">

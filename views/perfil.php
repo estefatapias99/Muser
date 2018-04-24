@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="shortcut icon" href="views/assets/image/logo.png">
     <link rel="stylesheet" href="../views.css">
+    
 
   </head>
   <body>
