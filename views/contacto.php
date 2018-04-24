@@ -5,13 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Manual de Usuario</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="views/assets/image/logo.png">
+    <link rel="shortcut icon" href="../image/logo.png">
     <link rel="stylesheet" href="../views.css">
+    <link rel="stylesheet" href="../manual.css">
+
 
 
   </head>
   <body>
 <!-- CONTACTO -->
+
+
+<div class="menu views">
+  <span></span>
+</div>
+<div class="containerMenu views">
+  <div class="item">
+    <img src="../image/paper-plane.png">
+    <a href="pedidos.php">Pedido</a>
+  </div>
+  <div class="item">
+    <img src="../image/mail-box.png" alt="">
+    <a href="cotizaciones.php">Cotizaciones</a>
+  </div>
+  <div class="item">
+    <img src="../image/laptop.png" alt="">
+    <a href="productos.php">Productos</a>
+  </div>
+  <div class="item">
+    <img src="../image/users.png" alt="">
+    <a href="perfil.php">Perfil</a>
+  </div>
+  <div class="item">
+    <img src="../image/headphone.png" alt="">
+    <a href="contacto.php">Contacto</a>
+  </div>
+  <div class="item">
+    <img src="../image/chat.png" alt="">
+    <a href="chat.php">Chat</a>
+  </div>
+</div>
+
 <div id="slider3" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
     <li data-target="#slider3" data-slide-to="0" class="active"></li>
@@ -51,10 +85,10 @@
 
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="../main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="../main.js"></script>
   </body>
 </html>

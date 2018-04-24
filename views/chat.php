@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Manual de Usuario</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="views/assets/image/logo.png">
+    <link rel="shortcut icon" href="../image/logo.png">
     <link rel="stylesheet" href="../views.css">
     <link rel="stylesheet" href="../manual.css">
 
@@ -20,27 +20,27 @@
 <div class="containerMenu views">
   <div class="item">
     <img src="../image/paper-plane.png">
-    <a href="views/pedidos.php">Pedido</a>
+    <a href="pedidos.php">Pedido</a>
   </div>
   <div class="item">
     <img src="../image/mail-box.png" alt="">
-    <a href="views/cotizaciones.php">Cotizaciones</a>
+    <a href="cotizaciones.php">Cotizaciones</a>
   </div>
   <div class="item">
     <img src="../image/laptop.png" alt="">
-    <a href="views/productos.php">Productos</a>
+    <a href="productos.php">Productos</a>
   </div>
   <div class="item">
     <img src="../image/users.png" alt="">
-    <a href="views/perfil.php">Perfil</a>
+    <a href="perfil.php">Perfil</a>
   </div>
   <div class="item">
     <img src="../image/headphone.png" alt="">
-    <a href="views/contacto.php">Contacto</a>
+    <a href="contacto.php">Contacto</a>
   </div>
   <div class="item">
     <img src="../image/chat.png" alt="">
-    <a href="views/chat.php">Chat</a>
+    <a href="chat.php">Chat</a>
   </div>
 </div>
 

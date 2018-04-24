@@ -5,13 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Manual de Usuario</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="views/assets/image/logo.png">
+    <link rel="shortcut icon" href="../image/logo.png">
     <link rel="stylesheet" href="../views.css">
-    
+    <link rel="stylesheet" href="../manual.css">
+
 
   </head>
   <body>
 <!-- PERFIL -->
+
+
+<div class="menu views">
+  <span></span>
+</div>
+<div class="containerMenu views">
+  <div class="item">
+    <img src="../image/paper-plane.png">
+    <a href="pedidos.php">Pedido</a>
+  </div>
+  <div class="item">
+    <img src="../image/mail-box.png" alt="">
+    <a href="cotizaciones.php">Cotizaciones</a>
+  </div>
+  <div class="item">
+    <img src="../image/laptop.png" alt="">
+    <a href="productos.php">Productos</a>
+  </div>
+  <div class="item">
+    <img src="../image/users.png" alt="">
+    <a href="perfil.php">Perfil</a>
+  </div>
+  <div class="item">
+    <img src="../image/headphone.png" alt="">
+    <a href="contacto.php">Contacto</a>
+  </div>
+  <div class="item">
+    <img src="../image/chat.png" alt="">
+    <a href="chat.php">Chat</a>
+  </div>
+</div>
+
 
 <div id="slider4" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
